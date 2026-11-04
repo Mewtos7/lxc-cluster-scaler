@@ -1,0 +1,193 @@
+<mxfile host="65bd71144e">
+    <diagram id="eFRcyHGOJQHUUYUC9ZqI" name="Page-1">
+        <mxGraphModel dx="1719" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ubmXH_RNy-o24DqHOyr5-3" edge="1" parent="1" source="ubmXH_RNy-o24DqHOyr5-1" style="edgeStyle=none;html=1;" target="5Od28Q-12t4bqvJ_x-cb-1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-22" edge="1" parent="1" source="ubmXH_RNy-o24DqHOyr5-1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-23" connectable="0" parent="FeiIMprVXGGUm3ZlFqPh-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Read config file/env variables" vertex="1">
+                    <mxGeometry relative="1" x="-0.1649" y="6" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ubmXH_RNy-o24DqHOyr5-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Cluster Scaler Startup Process" vertex="1">
+                    <mxGeometry height="80" width="80" x="240" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-4" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-1" style="edgeStyle=none;html=1;" target="5Od28Q-12t4bqvJ_x-cb-3" value="Yes">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-7" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-1" style="edgeStyle=none;html=1;" target="5Od28Q-12t4bqvJ_x-cb-6" value="No">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="if config file exists" vertex="1">
+                    <mxGeometry height="80" width="80" x="240" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-29" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Use exisiting database and schema" vertex="1">
+                    <mxGeometry height="60" width="120" x="30" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+                    <mxGeometry height="80" width="60" x="-70" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-9" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-6" style="edgeStyle=none;html=1;" target="5Od28Q-12t4bqvJ_x-cb-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Create config file" vertex="1">
+                    <mxGeometry height="60" width="120" x="430" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-19" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-8" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Create database and schema&lt;/span&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="430" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+                    <mxGeometry height="80" width="60" x="590" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-11" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="" vertex="1">
+                    <mxGeometry height="60" width="80" x="580" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-23" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-18" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-25" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-18" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-26" connectable="0" parent="5Od28Q-12t4bqvJ_x-cb-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Save to database" vertex="1">
+                    <mxGeometry relative="1" x="0.16" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Provision initial infrastructure at provider" vertex="1">
+                    <mxGeometry height="60" width="120" x="430" y="510" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-24" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-21" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="670"/>
+                            <mxPoint x="800" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-27" connectable="0" parent="5Od28Q-12t4bqvJ_x-cb-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Save to database" vertex="1">
+                    <mxGeometry relative="1" x="0.2267" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-30" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-21" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="480" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-4" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-21" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="_wLzhnB-wVAOKtH6rYSe-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-5" connectable="0" parent="FeiIMprVXGGUm3ZlFqPh-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Deploy nodes and start cluster" vertex="1">
+                    <mxGeometry relative="1" x="0.6757" y="3" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Build incus cluster" vertex="1">
+                    <mxGeometry height="60" width="120" x="430" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-3" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-28" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="FeiIMprVXGGUm3ZlFqPh-2">
+                    <mxGeometry relative="1" x="-0.1167" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="870"/>
+                            <mxPoint x="480" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-7" edge="1" parent="1" source="5Od28Q-12t4bqvJ_x-cb-28" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="FeiIMprVXGGUm3ZlFqPh-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5Od28Q-12t4bqvJ_x-cb-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Start monitoring process" vertex="1">
+                    <mxGeometry height="60" width="120" x="221" y="770" as="geometry"/>
+                </mxCell>
+                <mxCell id="_wLzhnB-wVAOKtH6rYSe-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Incus Cluster" vertex="1">
+                    <mxGeometry height="140" width="140" x="730" y="780" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-10" edge="1" parent="1" source="FeiIMprVXGGUm3ZlFqPh-2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="_wLzhnB-wVAOKtH6rYSe-3" value="Read cluster">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="800" y="940"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-12" edge="1" parent="1" source="FeiIMprVXGGUm3ZlFqPh-2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-10">
+                    <mxGeometry relative="1" x="0.0039" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="900" y="960"/>
+                            <mxPoint x="900" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-13" connectable="0" parent="FeiIMprVXGGUm3ZlFqPh-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Write to database" vertex="1">
+                    <mxGeometry relative="1" x="-0.7412" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" value="Monitoring process" vertex="1">
+                    <mxGeometry height="80" width="80" x="440" y="900" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-9" edge="1" parent="1" source="FeiIMprVXGGUm3ZlFqPh-6" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="FeiIMprVXGGUm3ZlFqPh-8">
+                    <mxGeometry relative="1" x="-0.1077" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="310" y="1030"/>
+                            <mxPoint x="480" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Start scaling process" vertex="1">
+                    <mxGeometry height="60" width="120" x="221" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-15" edge="1" parent="1" source="FeiIMprVXGGUm3ZlFqPh-8" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="5Od28Q-12t4bqvJ_x-cb-10">
+                    <mxGeometry relative="1" x="-0.0267" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="960" y="1120"/>
+                            <mxPoint x="960" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-16" connectable="0" parent="FeiIMprVXGGUm3ZlFqPh-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Read/Write database" vertex="1">
+                    <mxGeometry relative="1" x="-0.8109" y="6" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-19" edge="1" parent="1" source="FeiIMprVXGGUm3ZlFqPh-8" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="_wLzhnB-wVAOKtH6rYSe-3">
+                    <mxGeometry relative="1" x="-0.0399" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="820" y="1100"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-20" connectable="0" parent="FeiIMprVXGGUm3ZlFqPh-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="Scale actions" vertex="1">
+                    <mxGeometry relative="1" x="-0.433" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" value="Scaling process" vertex="1">
+                    <mxGeometry height="80" width="80" x="440" y="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="FeiIMprVXGGUm3ZlFqPh-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="Startup LXC Cluster Scaler Process" vertex="1">
+                    <mxGeometry height="30" width="447" x="163" y="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
