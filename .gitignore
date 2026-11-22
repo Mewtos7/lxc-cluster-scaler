@@ -34,3 +34,7 @@ go.work.sum
 
 # Database files
 *.db
+
+# Env files
+*env.ps1
+*.envrc
