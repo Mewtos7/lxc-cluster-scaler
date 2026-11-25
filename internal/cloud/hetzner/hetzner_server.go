@@ -22,6 +22,7 @@ func CreateHetznerServer() {
 	client := hcloud.NewClient(hcloud.WithToken(hcloud_token))
 	ctx := context.TODO()
 
+	start := true
 	result, _, err := client.Server.Create(ctx, hcloud.ServerCreateOpts{
 		Image:    &hcloud.Image{Name: "debian-13"},
 		Location: &hcloud.Location{Name: "nbg1"},
@@ -32,15 +33,14 @@ func CreateHetznerServer() {
 			IPv4:       nil,
 			IPv6:       nil,
 		},
-		ServerType:       &hcloud.ServerType{Name: "cpx32"},
-		StartAfterCreate: hcloud.Ptr(true),
+		ServerType: &hcloud.ServerType{Name: "cpx32"},
+
+		StartAfterCreate: &start,
 	})
 	if err != nil {
 		log.Printf("Error %s when creating server\n", err)
 		return
 	}
-
-	err = client.Action.WaitFor(ctx, result.Action)
 
 	server := result.Server
 

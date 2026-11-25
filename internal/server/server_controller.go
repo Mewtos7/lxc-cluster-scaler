@@ -1,9 +1,9 @@
-package main
+package server
 
 import (
 	"log"
 
-	"lxcclusterscaler/provider/hetzner"
+	"lxcclusterscaler/internal/cloud/hetzner"
 )
 
 func CreateServer(provider string) {
